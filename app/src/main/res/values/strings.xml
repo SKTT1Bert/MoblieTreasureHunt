@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Treasure Hunt</string>
+    
+    <!-- Game Rules -->
+    <string name="game_title">Treasure Hunt Adventure</string>
+    <string name="game_rules">
+        Welcome to the Treasure Hunt Adventure!\n\n
+        Follow these rules to find the treasures:\n\n
+        1. Enable location services on your device\n\n
+        2. Read each clue carefully and think about where it might be pointing to\n\n
+        3. Travel to the real-world location you think the clue is describing\n\n
+        4. Once at the location, press the \"Found It!\" button\n\n
+        5. If you\'re in the right place (within about 30 meters), you\'ll see information about the location and can proceed to the next clue\n\n
+        6. If you\'re not in the right place, keep exploring or use the hint for additional guidance\n\n
+        7. Complete all clues to win the treasure hunt!\n\n
+        8. Try to finish as quickly as possible - your time is being tracked\n\n
+        9. You can use the \"Get Current Location\" button to update your position\n\n
+        10. Have fun and enjoy exploring!
+    </string>
+    
+    <!-- Permissions Screen -->
+    <string name="permissions_title">Location Permissions Required</string>
+    <string name="permissions_explanation">This treasure hunt app needs access to your location to verify when you\'ve found the correct places. Without location permissions, you won\'t be able to play the game.</string>
+    <string name="grant_permissions">Grant Permissions</string>
+    
+    <!-- Buttons and UI elements -->
+    <string name="start_button">Start Adventure</string>
+    <string name="quit_button">Quit</string>
+    <string name="found_it_button">Found It!</string>
+    <string name="show_hint">Show Hint</string>
+    <string name="hide_hint">Hide Hint</string>
+    <string name="get_current_location">Get Current Location</string>
+    <string name="get_last_location">Get Last Location</string>
+    <string name="your_location">Your Location</string>
+    <string name="location_updated">Location updated!</string>
+    <string name="location_error">Unable to get location, please try again</string>
+    <string name="last_location_used">Using last known location!</string>
+    <string name="time_elapsed">Time Elapsed: %1$d seconds</string>
+    
+    <!-- Distance hint -->
+    <string name="distance_to_treasure">Distance to treasure: %1$.1f meters</string>
+    <string name="distance_getting_close">Getting close! Keep searching!</string>
+    <string name="distance_far_away">Still far away. Keep moving!</string>
+    <string name="distance_very_close">Very close! It\'s nearby!</string>
+    
+    <!-- Clue-related strings will be in a separate file -->
+</resources>
